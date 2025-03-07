@@ -1,74 +1,87 @@
-.bg{
-    background-color: rgb(164, 140, 252);
+.bg {
+    background-color: rgb(170, 150, 255); /* Roxo mais suave */
     flex: 1;
 }
-.titulo{
-    font-size: 24px;
-    background-color: rgba(150, 122, 252, 0.836);
+
+.titulo {
+    padding: 40px;
+    background-color: rgba(120, 90, 240, 0.9); /* Roxo mais vibrante */
     border-radius: 20px;
     text-align: center;
-    
+    color: #ffffff;
+    font-size: 50px;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 25%;
-    background-color: #f1f1f1;
+    background-color: #e6e1ff; /* Tom pastel para equilíbrio */
     position: relative;
-    height: 15%;
+    height: 100%;
     overflow: auto;
     border-radius: 8px;
+}
 
-    
-  }
-  li a {
+li a {
     display: block;
-    color: #000;
-    padding: 8px 16px;
+    color: #333; /* Cinza escuro para melhor legibilidade */
+    padding: 10px 16px;
     text-decoration: none;
-  }
-  
-  li a.active {
-    background-color: #8963f0;
-    color: white;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: #cac1ff;
-    color: white;
-  }
+    transition: 0.3s; /* Suaviza a transição das cores */
+}
 
-@media  screen and (max-width: 375px) {
-    .bg{
-        background-color: rgb(133, 235, 133);
+li a.active {
+    background-color: #7148e0; /* Roxo forte e moderno */
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #b4a3ff; /* Tom intermediário agradável */
+    color: white;
+}
+
+footer {
+    background-color: #6e5ccf; /* Roxo mais fechado para equilíbrio */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* Responsivo */
+@media screen and (max-width: 375px) {
+    .bg {
+        background-color: rgb(150, 235, 150);
     }
-    .titulo{
+    
+    .titulo {
         font-size: 16px;
-        background-color: rgba(111, 216, 111, 0.795);
-     
+        background-color: rgba(100, 200, 100, 0.8);
     }
-    ul{
+    
+    ul {
         width: 95%;
         height: 5%;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
         border-radius: 20px;
-
-        
     }
-    li{
+    
+    li {
         float: left;
     }
-    li a{
+    
+    li a {
         text-align: center;
         padding: 14px 16px;
     }
+    
     li a.active {
-        background-color: rgb(114, 218, 114);
+        background-color: rgb(100, 200, 100);
     }
+    
     li a:hover:not(.active) {
-        background-color: rgb(171, 243, 171);
+        background-color: rgb(160, 235, 160);
     }
 }
