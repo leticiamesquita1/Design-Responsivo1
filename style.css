@@ -1,5 +1,6 @@
 .bg{
     background-color: rgb(164, 140, 252);
+    flex: 1;
 }
 .titulo{
     font-size: 24px;
@@ -14,7 +15,7 @@ ul {
     padding: 0;
     width: 25%;
     background-color: #f1f1f1;
-    position: fixed;
+    position: relative;
     height: 15%;
     overflow: auto;
     border-radius: 8px;
