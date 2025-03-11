@@ -106,9 +106,17 @@
     display: flex;
     justify-content: left;
     border-radius: 8px;
-    text-align: center;
+    padding: 20px; 
+    margin-left: 20px; 
+    text-align: left;
     
 }
+.navbar {
+    display: flex; 
+    align-items: flex-start; 
+    margin: 20px; 
+}
+
 .a{
     display: flex;
     justify-content: right; 
