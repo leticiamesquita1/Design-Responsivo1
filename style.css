@@ -2,6 +2,16 @@
     background-color:#f1e6f4; 
     flex: 1;
 }
+.bg2{
+    background-color: #f5ffff;
+}
+.bg3{
+    background-color: #fffff6;
+}
+.bg4{
+    background-color: #c7e2ff;
+}
+
 
 .titulo {
     padding: 40px;
@@ -10,10 +20,57 @@
     color: #ffffff;
     font-size: 50px;
     width: 100%;
-    animation-name: animacao;
-    animation-iteration-count: infinite;
-    animation-duration: 4s;
     background-color:#e3cee9;
+}
+.titulo:hover{
+ animation-name: animacao;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+.fotos{
+    padding: 40px;
+    border-radius: 30px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    width: 100%;
+    background-color: #adcaf7;
+}
+.fotos:hover{
+    animation-name: animacao4;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+.sobre{
+        padding: 40px;
+        border-radius: 30px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 50px;
+        width: 100%;
+        background-color: #d6e7e1;
+        
+}
+.sobre:hover{
+    animation-name: animacao2;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+.cadastro{
+    padding: 40px;
+    border-radius: 30px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    width: 100%;
+    background-color: #fbf7e4;
+    
+}
+.cadastro:hover{
+    animation-name: animacao3;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
 }
 @keyframes animacao{
     0% {background-color: #e3cee9;}
@@ -21,6 +78,36 @@
     50% {background-color: #d5b5df;}
     75% {background-color: #c79cd4;}
     100% {background-color: #b88bc5;}
+}
+@keyframes animacao4{
+    0% {background-color: #adcaf7;}
+    25% {background-color:  #92b2ef;}
+    50% {background-color: #7899e6;}
+    75% {background-color: #5d81de;}
+    100% {background-color: #4973df;}
+}
+@keyframes animacao2{
+    0% {background-color: #d6e7e1;}
+    25% {background-color:  #b7d0c3;}
+    50% {background-color: #98b8a5;}
+    75% {background-color: #94b9a2;}
+    100% {background-color: #79a087;}
+}
+@keyframes animacao3{
+    0% {background-color: #fbf7e4;}
+    25% {background-color:  #f7efd3;}
+    50% {background-color: #f3e8c1;}
+    75% {background-color: #ece3bc;}
+    100% {background-color: #eee0af;}
+}
+.texto{
+    background-color: white;
+    width: 60%;
+    display: flex;
+    justify-content: left;
+    border-radius: 8px;
+    text-align: center;
+    
 }
 .a{
     display: flex;
