@@ -1,15 +1,32 @@
 .bg {
-    background-color: rgb(170, 150, 255); /* Roxo mais suave */
+    background-color:#f1e6f4; 
     flex: 1;
 }
 
 .titulo {
     padding: 40px;
-    background-color: rgba(120, 90, 240, 0.9); /* Roxo mais vibrante */
-    border-radius: 20px;
+    border-radius: 30px;
     text-align: center;
     color: #ffffff;
     font-size: 50px;
+    width: 100%;
+    animation-name: animacao;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    background-color:#e3cee9;
+}
+@keyframes animacao{
+    0% {background-color: #e3cee9;}
+    25% {background-color:  #ccafd4;}
+    50% {background-color: #d5b5df;}
+    75% {background-color: #c79cd4;}
+    100% {background-color: #b88bc5;}
+}
+.a{
+    display: flex;
+    justify-content: right; 
+    align-items: center; 
+   
 }
 
 ul {
@@ -17,33 +34,34 @@ ul {
     margin: 0;
     padding: 0;
     width: 25%;
-    background-color: #e6e1ff; /* Tom pastel para equilíbrio */
-    position: relative;
+    background-color: #fbf1ff;
+    position: auto;
     height: 100%;
     overflow: auto;
     border-radius: 8px;
+
 }
 
 li a {
     display: block;
-    color: #333; /* Cinza escuro para melhor legibilidade */
+    color: #333;
     padding: 10px 16px;
     text-decoration: none;
-    transition: 0.3s; /* Suaviza a transição das cores */
+    transition: 0.3s; 
 }
 
 li a.active {
-    background-color: #7148e0; /* Roxo forte e moderno */
+    background-color: #d5b5df;
     color: white;
 }
 
 li a:hover:not(.active) {
-    background-color: #b4a3ff; /* Tom intermediário agradável */
+    background-color: #dfc2e7;
     color: white;
 }
 
 footer {
-    background-color: #6e5ccf; /* Roxo mais fechado para equilíbrio */
+    background-color: #6e5ccf;
     color: white;
     text-align: center;
     padding: 20px;
@@ -58,7 +76,7 @@ footer {
     }
     
     .titulo {
-        font-size: 16px;
+        font-size: 24px;
         background-color: rgba(100, 200, 100, 0.8);
     }
     
